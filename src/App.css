@@ -125,12 +125,47 @@ footer img {
 
 form {
   display: grid;
-  max-width: 200px;
+  max-width: 350px; /* Increased the width */
   gap: 20px;
+  padding: 30px; /* Increased padding */
+  background-color: #3c4a44; /* Form background matching your theme */
+  border-radius: 12px; /* Keep the rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow for depth */
+  color: #EDEFEE; /* Text color */
+}
+
+form label {
+  font-size: 16pt; /* Increased font size for labels */
+  margin-bottom: 10px;
+}
+
+input, select {
+  padding: 12px; /* Increase padding for inputs and selects */
+  font-size: 14pt;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Border color */
+  width: 100%; /* Make sure the inputs take full width */
+}
+
+input[type="submit"] {
+  background-color: #F4CE14;
+  color: black;
+  padding: 15px;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16pt;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddb713; /* Darker yellow on hover */
 }
 
 @media (max-width: 700px) {
   header section, footer section {
+    max-width: 100%; /* Allow form to take full width on mobile */
     display: grid;
     grid-auto-flow: row;
   }
