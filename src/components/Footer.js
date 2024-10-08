@@ -22,17 +22,17 @@ const Footer = () => {
             <div>
                 <h3>Contact</h3>
             <ul>
-                <li>Address</li>
                 <li>Phone Number</li>
+                <li>Address</li>
                 <li>Email</li>
             </ul>
             </div>
             <div>
                 <h3>Social Media Links</h3>
             <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>YouTube</li>
             </ul>
             </div>
             </section>
